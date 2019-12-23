@@ -83,7 +83,7 @@ func main() {
 		},
 		cli.StringFlag{
 			Name:  "grafana-dashboards-folder",
-			Value: os.Getenv("GOPATH") + "/src/github.com/ethereum/go-ethereum/swarm/grafana_dashboards",
+			Value: os.Getenv("GOPATH") + "/src/github.com/ethersphere/grafana-dashboards",
 			Usage: "default grafana dashboards folder",
 		},
 		cli.StringFlag{
